@@ -20,7 +20,7 @@ int main()
 	printf("Original string: %s\n",string);
 	printf("Left %d characters: %s\n",16,left(string,16));
 	printf("Right %d characters: %s\n",18,right(string,18));
-	printf("Middle %d characters: %s\n",11,mid(string,13,11));
+	printf("Middle %d characters: %s\n",11,mid(string,12,11));
 
 	return(0);
 }
